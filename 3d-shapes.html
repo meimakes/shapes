@@ -16,7 +16,7 @@
                 --orange: #FF9F1C;
                 --teal: #2EC4B6;
                 --card-bg: white;
-                --footer-text: white;
+                --footer-text: #555;
             }
 
             @media (prefers-color-scheme: dark) {
@@ -162,6 +162,12 @@
                 min-height: 1.5rem;
                 text-align: center;
                 color: var(--dark);
+            }
+
+            footer a {
+                color: var(--footer-text);
+                text-decoration: none;
+                font-weight: 600;
             }
 
             footer {
